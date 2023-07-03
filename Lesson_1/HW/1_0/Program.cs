@@ -13,11 +13,6 @@ if (first > second)
 {
     Console.WriteLine("Max number: " + first);
     Console.WriteLine("Min number: " + second);
-/*     if (first = second)
-    Console.WriteLine("the numbers are equal");
-    else
-    Console.WriteLine("max number: " + first);
- */
 }
 else if (first < second)
 {
@@ -29,5 +24,3 @@ else
 { 
     Console.WriteLine("The numbers are equal!!!");
 }
-
-/* Console.WriteLine("first second: " + second); */
