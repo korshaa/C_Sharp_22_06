@@ -15,10 +15,10 @@ void Palindrome(int num)
         if (num / 10000 == num % 10)
             if (num / 10 % 10 == num % 10000 / 1000)
                 Console.WriteLine($"Число {num} является палиндромом");
-            else 
+            else
                 Console.WriteLine($"Число {num} не является палиндромом");
-        else 
-                Console.WriteLine($"Число {num} не является палиндромом");
+        else
+            Console.WriteLine($"Число {num} не является палиндромом");
     }
     else
         Console.WriteLine($"Error: Чиисло {num} не является пятизначным");

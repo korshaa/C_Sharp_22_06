@@ -6,7 +6,7 @@
 void Cubes(int N)
 {
     if (N == 0)
-    Console.Write("0 в кубе равняеться нулю");
+        Console.Write("0 в кубе равняеться нулю");
     else if (N > 0)
     {
         Console.Write($"Кубы чисел от 1 до {N} -> ");
@@ -25,7 +25,7 @@ void Cubes(int N)
             Console.Write($"{Math.Pow(N, 3)}, ");
             N++;
         }
-    }   
+    }
 }
 
 Console.Write("Введите число: ");
