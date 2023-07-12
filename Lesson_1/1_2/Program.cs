@@ -39,7 +39,7 @@ else
 
 // ------------------------------------- 2 вариант
 
-int a = int.Parse(Console.ReadLine()!);
+/* int a = int.Parse(Console.ReadLine()!);
 
 switch (a)
 {
@@ -51,4 +51,4 @@ switch (a)
     case 6: Console.WriteLine("Saturday"); break;
     case 7: Console.WriteLine("Sunday"); break;
     default: Console.WriteLine("Wrong number"); break;
-};
+}; */
