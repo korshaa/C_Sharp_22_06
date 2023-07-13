@@ -22,7 +22,7 @@ Quarters(num_1, num_2);
 
 
 
-void Quarters(int x, int y)
+/* void Quarters(int x, int y)
 {
     if (x > 0) 
     {
@@ -51,4 +51,4 @@ void Quarters(int x, int y)
 Quarters(2, 2);
 Quarters(-2, 2);
 Quarters(-2, -2);
-Quarters(2, -2);
+Quarters(2, -2); */
