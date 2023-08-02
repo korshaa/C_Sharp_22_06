@@ -33,7 +33,7 @@ string MatrixT(int[,] arr)
     int row = arr.GetLength(0);
     int column = arr.GetLength(1);
 
-    if (row != column) return "Matrix transposition is not possible";
+    if (row != column) return "Error";
 
     for (int i = 1; i < row; i++)
     {
@@ -41,25 +41,25 @@ string MatrixT(int[,] arr)
             (arr[i, j], arr[j, i]) = (arr[j, i], arr[i, j]);
     }
 
-    return "Matrix transposition is possible"; ;
+    return "Замена возможна"; ;
 }
 
 
-Console.Write("Enter the number of rows: ");
+Console.Write("Введите количество строк:: ");
 int row_num = int.Parse(Console.ReadLine()!);
-Console.Write("Enter the number of columns: ");
+Console.Write("Введите количество столбцов: ");
 int column_num = int.Parse(Console.ReadLine()!);
 
-Console.Write("Enter the min number of massive ");
+Console.Write("Введите минимальное число в масива ");
 int start = int.Parse(Console.ReadLine()!);
-Console.Write("Enter the max number of massive ");
+Console.Write("Введите максимальное число масива ");
 int stop = int.Parse(Console.ReadLine()!);
 
-int[,] mass = MassNums(row_num, column_num, start, stop);
+int[,] matrix = MassNums(row_num, column_num, start, stop);
 
-Print(mass);
+Print(matrix);
 
-string answer = MatrixT(mass);
+string answer = MatrixT(matrix);
 Console.WriteLine(answer);
-Print(mass);
+Print(matrix);
 
