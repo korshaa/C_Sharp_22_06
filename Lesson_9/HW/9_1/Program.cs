@@ -9,12 +9,3 @@ int SumNum(int M, int N)
 }
 Console.WriteLine(SumNum(4, 8));
 Console.WriteLine(SumNum(1, 15));
-
-/* int SumNum(int M, int N)
-{
-
-    if (N < M) return SumNum(M, N - 1) + N;
-    if (N == M) return SumNum(M, N) + M;
-    else return;
-}
-Console.WriteLine(SumNum(4, 8)); */
